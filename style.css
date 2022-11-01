@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(30, 38%, 92%);
+}
+.parent {
+  display: flex;
+  height: 40rem;
+  border-radius: 16px;
+  background-color: white;
+}
+.left {
+  width: 100%;
+  height: 100%;
+  background-image: url(./image-product-desktop.jpg);
+  background-size: cover;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+.left img {
+  /* height: 40rem; */
+  width: 100%;
+}
+.right {
+  padding: 20px;
+}
+.btn {
+  border-radius: 8px;
+  color: white;
+  background-color: hsl(115, 60%, 26%);
+  height: 3rem;
+  width: 14rem;
+}
+.price {
+  color: hsl(115, 60%, 26%);
+  font-family: "Space Mono", monospace;
+  font-weight: 500, 700;
+}
+.header {
+  font-family: "Space Mono", monospace;
+}
+.price2 {
+  text-decoration: line-through;
+  font-family: "Space Mono", monospace;
+  font-weight: 700px;
+}
